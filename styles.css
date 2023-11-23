@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto&display=swap');
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -9,14 +10,18 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-
+/*grijs #899CA0 en donkergroen #1C2B32*/
 
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
 
-
+*{
+    box-sizing: border-box;
+    padding : 0;
+    margin : 0;
+}
 
 /*////////////////////////
     2. Typography
@@ -28,7 +33,10 @@ Table of Contents:
     3. Areas
 ////////////////////////*/
 
-
+body {
+    background-color: white;
+    font-family: "Poppins",sans-serif;
+}
 
 /*///////////// 3.1 Header /////////////*/
 
